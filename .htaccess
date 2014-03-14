@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /	
+RewriteRule ^(a|b|c|d)/(.*)$ /render.php?d=$1&i=$2 [L]
+RewriteRule ^dashboard$ dashboard.php [L]
